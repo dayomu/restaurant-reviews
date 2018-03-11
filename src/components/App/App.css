@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 69px;
+  background: #f0f2f5;
+}
+
+.layout {
+  background: transparent;
+}
+
+.app-content {
+  padding: 50px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+.loader-container {
+  min-height: 500px;
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  .app-content {
+    padding: 50px 15px;
+  }
+}
